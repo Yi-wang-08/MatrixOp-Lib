@@ -7,5 +7,12 @@ int main(){
     int C[SIZE][SIZE];
 
     add(A,B,C);
+    sub(A,B,C);
+    mulelm(A,B,C);
+    mul(A,B,C);
+    transpose(A,C);
+    det(A);
+    adjoint(A,C);
+    inverse(A,C);
     print(C);
 }
