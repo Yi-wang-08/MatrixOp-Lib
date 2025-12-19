@@ -40,7 +40,7 @@ void transpose(int A[SIZE][SIZE],int C[SIZE][SIZE]){
  C[j][i] = A[i][j]; 
  } 
  } 
-} 
+} //transpose
 
 int det(int A[SIZE][SIZE]){ 
 int a = A[0][0], b = A[0][1], c = A[0][2]; 
