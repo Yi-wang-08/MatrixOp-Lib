@@ -15,6 +15,7 @@ void sub(int A[SIZE][SIZE],int B[SIZE][SIZE],int C[SIZE][SIZE]){
         } 
     } 
 }
+//sub
 void mulelm(int A[SIZE][SIZE],int B[SIZE][SIZE],int C[SIZE][SIZE]){ 
  for (int i = 0;i<SIZE;i++){ 
 for(int j=0;j<SIZE;j++){ 
