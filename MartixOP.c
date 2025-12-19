@@ -52,7 +52,7 @@ int det = a * (e * i - f * h)
  + c * (d * h - e * g); 
  
 return det; 
-}
+}//det
 
 void adjoint(int A[SIZE][SIZE],int C[SIZE][SIZE]){ 
 int a = A[0][0], b = A[0][1], c = A[0][2]; 
