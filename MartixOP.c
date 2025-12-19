@@ -74,13 +74,16 @@ int C22 = (a * e - b * d);
 C[0][0] = C00; C[0][1] = C10; C[0][2] = C20; 
  C[1][0] = C01; C[1][1] = C11; C[1][2] = C21; 
  C[2][0] = C02; C[2][1] = C12; C[2][2] = C22; 
-} //adjoint
+} //adjointgit add .
+git commit -m "adjoint "
+git push
+
 
 int inverse(int A[SIZE][SIZE],double C[SIZE][SIZE]){ 
 int d = det(A); 
 if (d == 0) { 
 return 0; 
- } 
+ } //inverse
  
  
 int adj[SIZE][SIZE]; 
